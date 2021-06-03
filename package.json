@@ -7,10 +7,13 @@
     "website": "textlint-website-generator --outputDir dist"
   },
   "devDependencies": {
-    "@textlint/website-generator": "^0.10.4"
+    "@textlint/website-generator": "^0.10.4",
+    "textlint": "^11.9.0",
+    "textlint-rule-ja-hiragana-keishikimeishi": "^1.1.0",
+    "textlint-rule-ja-no-redundant-expression": "^4.0.0",
+    "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1"
   },
   "dependencies": {
-    "textlint": "^11.9.0",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-no-todo": "^2.0.1"
   }
